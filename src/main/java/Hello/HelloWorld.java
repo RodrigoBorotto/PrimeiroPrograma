@@ -25,6 +25,7 @@ public class HelloWorld {
         usuarios.forEach(user -> {
             print(user.nome);
             print(user.cpf.toString());
+            print(texto);
         });
 
     }
